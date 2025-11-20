@@ -1,4 +1,14 @@
 package com.fpl.edu.shoeStore.product;
 
-public class entity {
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class productEntity {
+    private int productId;
 }
