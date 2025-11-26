@@ -1,0 +1,23 @@
+package com.fpl.edu.shoeStore.payments.dto.response;
+
+import lombok.*;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@ToString
+public class PaymentDTOResponse {
+    private int paymentId;
+    private int orderId;
+    private int payerId;
+    private String paymentMethod;
+    private LocalDateTime paymentDate;
+    private BigDecimal amount;
+    private String status;
+    private String transactionCode;
+    private LocalDateTime createdAt;
+}
