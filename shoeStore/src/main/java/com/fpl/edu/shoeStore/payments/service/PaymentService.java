@@ -15,6 +15,7 @@ public interface PaymentService {
             Integer payerId,
             String paymentMethod,
             LocalDateTime paymentDate,
+            String status,
             BigDecimal amount,
             String transactionCode,
             int page,
