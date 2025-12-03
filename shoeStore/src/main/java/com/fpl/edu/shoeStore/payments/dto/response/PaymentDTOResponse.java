@@ -11,9 +11,9 @@ import java.time.LocalDateTime;
 @Builder
 @ToString
 public class PaymentDTOResponse {
-    private int paymentId;
-    private int orderId;
-    private int payerId;
+    private Integer paymentId;
+    private Integer orderId;
+    private Integer payerId;
     private String paymentMethod;
     private LocalDateTime paymentDate;
     private BigDecimal amount;

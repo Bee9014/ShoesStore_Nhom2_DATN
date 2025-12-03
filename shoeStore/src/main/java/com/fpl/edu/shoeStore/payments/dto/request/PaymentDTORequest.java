@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Builder
 public class PaymentDTORequest {
-    private int orderId;
+    private Integer orderId;
     private String paymentMethod;
     private BigDecimal amount;
     private String transactionCode;
